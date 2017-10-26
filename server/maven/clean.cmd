@@ -1,0 +1,1 @@
+cd ..\project & cd distribution & mvn clean & cd ..\mj-boss & mvn clean & cd ..\mj-client & mvn clean & cd ..\mj-core & mvn clean & cd ..\mj-dao & mvn clean & cd ..\mj-data & mvn clean & cd ..\mj-gateway & mvn clean & cd ..\mj-manager & mvn clean & cd ..\mj-scene & mvn clean & cd ..\..\maven
