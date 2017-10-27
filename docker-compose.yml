@@ -49,7 +49,7 @@ mysql:
   ports:
     - '3306:3306/tcp'
   environment:
-    MYSQL_ROOT_PASSWORD: 111111
+    MYSQL_ROOT_PASSWORD: root
     MYSQL_DATABASE: boss
   restart: always
   labels:

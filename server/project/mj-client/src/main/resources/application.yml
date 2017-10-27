@@ -18,13 +18,13 @@ logging:
             hibernate: ERROR
 
 debug:
-    false
+    true
 
 
 jdbc:
     url: jdbc:mysql://127.0.0.1:3306/boss?autoReconnect=true&characterEncoding=utf8&useSSL=false
     username: root
-    password: 111111
+    password: root
     driver-class-name: com.mysql.jdbc.Driver
     maxNums: 20
     minNums: 5

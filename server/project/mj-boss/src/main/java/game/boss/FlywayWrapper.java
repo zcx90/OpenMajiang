@@ -17,7 +17,7 @@ public class FlywayWrapper {
     /**
      * 检查数据库并尝试恢复,如果开启这个，其他选项都无效
      */
-    private boolean checkAndRest = false;
+    private boolean checkAndRest = true;
 
     private DataSource dataSource;
     private String[] locations;
